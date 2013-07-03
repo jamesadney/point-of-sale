@@ -3,7 +3,7 @@ class CreateProducts < ActiveRecord::Migration
     create_table :products do |t|
       t.string :name
       t.string :description
-      t.string :price_cents
+      t.integer :price_cents
       t.string :upc_code
       t.boolean :taxable
 
