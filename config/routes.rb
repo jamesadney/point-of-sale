@@ -5,6 +5,7 @@ Pos::Application.routes.draw do
     resources :products
   end
 
+  resources :products
   resources :categories
   resources :line_items
 
